@@ -8,7 +8,7 @@ function Home() {
         <Row>
             <Col>
                 <div className="d-flex justify-content-center align-items-center">
-                    <img src="https://avatars0.githubusercontent.com/u/54314099?s=460&u=f36910cf0b5cfac4691d8cbf4111c7c5dc4cd15a&v=4" className="m-5 shadow-lg" alt="photo" style={{borderRadius:"100%"}}/>
+                    <img src="https://avatars0.githubusercontent.com/u/54314099?s=460&u=f36910cf0b5cfac4691d8cbf4111c7c5dc4cd15a&v=4" alt="DP" className="m-5 shadow-lg" style={{borderRadius:"100%"}}/>
 
                 </div>
             </Col>
