@@ -6,7 +6,7 @@ function Navigation(){
     return(
         <div>
             <Navbar bg="primary" variant="dark">
-    <Navbar.Brand href="#home">REACT</Navbar.Brand>
+    <Navbar.Brand href="#home">amarjith</Navbar.Brand>
     <Nav className="ml-auto">
       <Nav.Link href="#home">Home</Nav.Link>
       <Nav.Link href="#features">Projects</Nav.Link>
