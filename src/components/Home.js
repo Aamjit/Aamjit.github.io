@@ -13,8 +13,10 @@ function Home() {
                 </div>
             </Col>
             <Col className="d-flex justify-content-center align-items-center" style={{Row}}>
-                <h1 style={{ fontSize: "72px", color: ""}}>Aamjit</h1>
-                <h3 style={{color: "red"}}>React Newbie</h3>
+
+                <h1 style={{ fontSize: "72px", color: ""}} class="dropdown-header" >Aamjit</h1>
+                
+                <h3 style={{color: "red"}} class="dropdown-header" >React Newbie</h3>
 
                 <div>
                 <a className="m-2" href="https://www.instagram.com/aamjit_/"  rel="noreffer">
