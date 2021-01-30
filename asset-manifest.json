@@ -6,17 +6,17 @@
     "runtime-main.js": "/Aamjit/Aamjit.github.io/static/js/runtime-main.7a428a1d.js",
     "runtime-main.js.map": "/Aamjit/Aamjit.github.io/static/js/runtime-main.7a428a1d.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/Aamjit/Aamjit.github.io/static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.6f9f5199.chunk.js": "/Aamjit/Aamjit.github.io/static/js/2.6f9f5199.chunk.js",
-    "static/js/2.6f9f5199.chunk.js.map": "/Aamjit/Aamjit.github.io/static/js/2.6f9f5199.chunk.js.map",
+    "static/js/2.b1794d93.chunk.js": "/Aamjit/Aamjit.github.io/static/js/2.b1794d93.chunk.js",
+    "static/js/2.b1794d93.chunk.js.map": "/Aamjit/Aamjit.github.io/static/js/2.b1794d93.chunk.js.map",
     "index.html": "/Aamjit/Aamjit.github.io/index.html",
     "static/css/2.20aa2d7b.chunk.css.map": "/Aamjit/Aamjit.github.io/static/css/2.20aa2d7b.chunk.css.map",
     "static/css/main.6dea0f05.chunk.css.map": "/Aamjit/Aamjit.github.io/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.6f9f5199.chunk.js.LICENSE.txt": "/Aamjit/Aamjit.github.io/static/js/2.6f9f5199.chunk.js.LICENSE.txt"
+    "static/js/2.b1794d93.chunk.js.LICENSE.txt": "/Aamjit/Aamjit.github.io/static/js/2.b1794d93.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7a428a1d.js",
     "static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.6f9f5199.chunk.js",
+    "static/js/2.b1794d93.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
     "static/js/main.1a5fda17.chunk.js"
   ]
