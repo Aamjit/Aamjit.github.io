@@ -16,7 +16,9 @@ function Projects() {
               <Card.Header>
                 <Nav variant="pills" defaultActiveKey="#first">
                   <Nav.Item>
-                    <Nav.Link href="./components/files/Mini_Project_Report.pdf">Online Shopping</Nav.Link>
+                    <Nav.Link href="https://github.com/Aamjit/Aamjit.github.io/blob/master/src/components/files/Mini_Project_Report.pdf">
+                      Online Shopping
+                    </Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
                     <Nav.Link href="">NFC in toll</Nav.Link>
