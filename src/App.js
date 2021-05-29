@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import Navigation from "./components/Navigation";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import "./App.css";
 
 const App = () => {
   return (
