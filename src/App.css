@@ -1,3 +1,8 @@
+@viewport {
+  width: devide-width;
+  zoom: 1;
+}
+
 .App {
   text-align: center;
 }
@@ -41,4 +46,9 @@
   -webkit-box-shadow: 0 28px 16px -26px rgba(0, 0, 0);
   -moz-box-shadow: 0 28px 16px -26px rgba(0, 0, 0);
   box-shadow: 0 28px 16px -26px rgba(0, 0, 0);
+}
+
+.ml-auto {
+  display: flex;
+  justify-content: center;
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
-import { FaInstagram, FaFacebook, FaGithub } from "react-icons/fa";
+import { FaInstagram, FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 
 function Home() {
   return (
@@ -24,14 +24,14 @@ function Home() {
                 marginBottom: "30px",
                 WebkitBoxShadow: "0 28px 16px -26px rgba(0, 0, 0)",
                 MozBoxShadow: " 0 28px 16px -26px rgba(0, 0, 0)",
-                boxShadow: "0 28px 16px -26px rgba(0, 0, 0)"
+                boxShadow: "0 28px 16px -26px rgba(a, a, a)"
               }}
             />
           </div>
         </Col>
         <Col
           className="d-flex justify-content-center align-items-center"
-          style={{ width: "100%", position: "relative" }}
+          style={{ width: "100%", display: "flex" }}
         >
           <h1
             style={{
@@ -43,12 +43,9 @@ function Home() {
             Amarjit Yanglem
           </h1>
 
-          <h3
-            style={{ color: "red", position: "inherit" }}
-            class="dropdown-header"
-          >
+          <h2 style={{ color: "red", fontSize: "1vw" }} class="dropdown-header">
             React Newbie
-          </h3>
+          </h2>
 
           <div>
             <a
@@ -58,15 +55,15 @@ function Home() {
             >
               <FaInstagram color="#" fontSize="32px" />
             </a>
-            <a
-              className="m-2"
-              href="https://www.facebook.com/amarjit.yanglem.9/"
-              rel="noreffer"
-            >
-              <FaFacebook color="#" fontSize="32px" />
-            </a>
             <a className="m-2" href="https://github.com/Aamjit" rel="noreffer">
               <FaGithub color="#" fontSize="32px" />
+            </a>
+            <a
+              className="m-2"
+              href="https://www.linkedin.com/in/amarjit-yanglem-739538191/"
+              rel="noreffer"
+            >
+              <FaLinkedin color="#" fontSize="32px" />
             </a>
           </div>
         </Col>

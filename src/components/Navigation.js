@@ -1,12 +1,27 @@
 import React from "react";
-import { Button, Navbar, Nav, Form, FormControl } from "react-bootstrap";
+import {
+  Button,
+  Navbar,
+  Nav,
+  Form,
+  FormControl,
+  NavDropdown
+} from "react-bootstrap";
 
 function Navigation() {
+  const handleSelect = (eventKey) => alert(`selected ${eventKey}`);
   return (
     <div>
-      <Navbar bg="primary" variant="dark">
+      <Navbar
+        bg="dark"
+        variant="dark"
+        className=""
+        fill=""
+        expand="lg"
+        sticky="top"
+      >
         <Navbar.Brand href="#home">Portfolio created by React</Navbar.Brand>
-        <Nav className="ml-auto">
+        <Nav className="mr-auto">
           <Nav.Link href="#home">Home</Nav.Link>
           <Nav.Link href="#features">Projects</Nav.Link>
           <Nav.Link href="#pricing">Contact</Nav.Link>
