@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
-import { FaInstagram, FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
 
 function Home() {
   return (
@@ -11,20 +11,16 @@ function Home() {
             <img
               src="https://avatars0.githubusercontent.com/u/54314099?s=460&u=f36910cf0b5cfac4691d8cbf4111c7c5dc4cd15a&v=4"
               alt="DP"
-              className="m-5 shadow-lg"
+              className="m-5 shadow-g"
               id="profile-image"
               style={{
                 borderRadius: "100%",
                 width: "100%",
                 display: "inline-block",
-                position: "relative",
-                border: "1px solid #ccc",
-                padding: "20px",
+                padding: "8px",
                 background: "#f2f2f2",
-                marginBottom: "30px",
-                WebkitBoxShadow: "0 28px 16px -26px rgba(0, 0, 0)",
-                MozBoxShadow: " 0 28px 16px -26px rgba(0, 0, 0)",
-                boxShadow: "0 28px 16px -26px rgba(a, a, a)"
+                marginBottom: "px",
+                boxShadow: "20px 30px 50px 10px rgba(0,0,0,0.6)"
               }}
             />
           </div>
@@ -33,7 +29,7 @@ function Home() {
           className="d-flex justify-content-center align-items-center"
           style={{ width: "100%", display: "flex" }}
         >
-          <h1
+          <h2
             style={{
               fontSize: "8vw",
               color: "#02890D"
@@ -41,9 +37,9 @@ function Home() {
             class="dropdown-header"
           >
             Amarjit Yanglem
-          </h1>
+          </h2>
 
-          <h2 style={{ color: "red", fontSize: "1vw" }} class="dropdown-header">
+          <h2 style={{ color: "red", fontSize: "2vw" }} class="">
             React Newbie
           </h2>
 

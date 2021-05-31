@@ -1,15 +1,7 @@
 import React from "react";
-import {
-  Button,
-  Navbar,
-  Nav,
-  Form,
-  FormControl,
-  NavDropdown
-} from "react-bootstrap";
+import { Button, Navbar, Nav, Form, FormControl } from "react-bootstrap";
 
 function Navigation() {
-  const handleSelect = (eventKey) => alert(`selected ${eventKey}`);
   return (
     <div>
       <Navbar
