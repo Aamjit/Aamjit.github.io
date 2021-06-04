@@ -1,9 +1,10 @@
 import React from "react";
 import { Container } from "react-bootstrap";
+import "./Components.css";
 
 function Footer() {
   return (
-    <div>
+    <div className="foot-main" id="foot">
       <Container fluid classname="bg-primary pb-2">
         <div className="text-center footer">
           Copyright &copy; 2020-Infinity. No rights reserved

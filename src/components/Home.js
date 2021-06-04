@@ -6,26 +6,34 @@ import "./Components.css";
 function Home() {
   return (
     <div class="container-fluid bg">
-      <Row class="justify-content-md-center r-pic">
-        <Col className="col-pic" sm={8}>
+      <Row class="d-flex-justify-contents-center align-items-center r-pic">
+        <Col className="col-pic" xs={12} md={7} lg={5} xxl={4}>
           <div className="d-flex justify-content-center align-items-center container-img ">
             <img
               src="https://avatars0.githubusercontent.com/u/54314099?s=460&u=f36910cf0b5cfac4691d8cbf4111c7c5dc4cd15a&v=4"
               alt="DP"
               className="dp-img m-5 shadow-g"
-              id="profile-image"
-              style={{
-                borderRadius: "100%",
-                width: "100%",
-                display: "inline-block",
-                padding: "8px",
-                background: "#f2f2f2",
-                marginBottom: "px",
-                boxShadow: "20px 30px 50px 10px rgba(0,0,0,0.6)"
-              }}
+              sizes="sm"
+              id=""
             />
             <div className="img-text">
               <p>(^ o ^)/" Hello Coders!</p>
+            </div>
+          </div>
+        </Col>
+      </Row>
+      <Row>
+        <Col
+          d-flex-justify-content-center
+          align-items-center
+          xs={12}
+          md={7}
+          lg={12}
+          xxl={4}
+        >
+          <div class="wrapper">
+            <div class="typing-text">
+              Responsive Design of Portfolio using React+Bootstrap
             </div>
           </div>
         </Col>
