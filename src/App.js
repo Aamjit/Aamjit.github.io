@@ -5,7 +5,7 @@ import Navigation from "./components/Navigation";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 
-const App = () => {
+function App() {
   return (
     <div style={{ background: "#A5C9C8" }}>
       <Navigation />
@@ -15,6 +15,6 @@ const App = () => {
       <Contact />
     </div>
   );
-};
+}
 
 export default App;

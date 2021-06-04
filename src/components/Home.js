@@ -1,12 +1,13 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
 import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
+import "./Components.css";
 
 function Home() {
   return (
     <div class="container-fluid bg">
-      <Row>
-        <Col>
+      <Row class="r-pic">
+        <Col className="col-pic" xs="{6}">
           <div className="d-flex justify-content-center align-items-center">
             <img
               src="https://avatars0.githubusercontent.com/u/54314099?s=460&u=f36910cf0b5cfac4691d8cbf4111c7c5dc4cd15a&v=4"
@@ -25,21 +26,21 @@ function Home() {
             />
           </div>
         </Col>
+      </Row>
+      <Row>
         <Col
           className="d-flex justify-content-center align-items-center"
           style={{ width: "100%", display: "flex" }}
         >
-          <h2
-            style={{
-              fontSize: "8vw",
-              color: "#02890D"
-            }}
-            class="dropdown-header"
-          >
+          <h2 class="dropdown-header" id="name-display">
             Amarjit Yanglem
           </h2>
 
-          <h2 style={{ color: "red", fontSize: "2vw" }} class="">
+          <h2
+            id="notation-name"
+            style={{ color: "red", fontSize: "2vw" }}
+            class=""
+          >
             React Newbie
           </h2>
 
