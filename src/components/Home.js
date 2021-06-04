@@ -6,13 +6,13 @@ import "./Components.css";
 function Home() {
   return (
     <div class="container-fluid bg">
-      <Row class="r-pic">
-        <Col className="col-pic" xs="{6}">
-          <div className="d-flex justify-content-center align-items-center">
+      <Row class="justify-content-md-center r-pic">
+        <Col className="col-pic" sm={8}>
+          <div className="d-flex justify-content-center align-items-center container-img ">
             <img
               src="https://avatars0.githubusercontent.com/u/54314099?s=460&u=f36910cf0b5cfac4691d8cbf4111c7c5dc4cd15a&v=4"
               alt="DP"
-              className="m-5 shadow-g"
+              className="dp-img m-5 shadow-g"
               id="profile-image"
               style={{
                 borderRadius: "100%",
@@ -24,6 +24,9 @@ function Home() {
                 boxShadow: "20px 30px 50px 10px rgba(0,0,0,0.6)"
               }}
             />
+            <div className="img-text">
+              <p>(^ o ^)/" Hello Coders!</p>
+            </div>
           </div>
         </Col>
       </Row>
