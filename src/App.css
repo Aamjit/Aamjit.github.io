@@ -52,3 +52,9 @@
   display: flex;
   justify-content: center;
 }
+
+.main-app {
+  background: #a5c9c8;
+  width: 100vw;
+  margin: 0 0 0 0;
+}

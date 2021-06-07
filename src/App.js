@@ -8,7 +8,7 @@ import "./App.css";
 
 const App = () => {
   return (
-    <div style={{ background: "#A5C9C8" }}>
+    <div class="main-app">
       <Navigation />
       <Home />
       <Projects />

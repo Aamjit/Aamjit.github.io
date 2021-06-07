@@ -4,17 +4,17 @@ import { Row, Col, Card, Nav } from "react-bootstrap";
 function Skills() {
   return (
     <div>
-      <container id="skills">
-        <Row style={{ paddingTop: "40px", paddingBottom: "20px" }}>
-          <Col>
-            <h1 className="mt-2 text-center">My Skills</h1>
-          </Col>
-        </Row>
+      <container className="skills">
+        <h1 className="mt-5 mb-4 text-center">My Experience</h1>
         <Row>
           <Col>
             <Card>
               <Card.Header>
-                <Nav variant="pills" defaultActiveKey="#first">
+                <Nav
+                  variant="pills"
+                  defaultActiveKey="#first"
+                  className="skills-list"
+                >
                   <Nav.Item>
                     <Nav.Link href="">HTML</Nav.Link>
                   </Nav.Item>
@@ -35,12 +35,6 @@ function Skills() {
                   </Nav.Item>
                   <Nav.Item>
                     <Nav.Link href="">VS Code</Nav.Link>
-                  </Nav.Item>
-                  <Nav.Item>
-                    <Nav.Link href="">Shell</Nav.Link>
-                  </Nav.Item>
-                  <Nav.Item>
-                    <Nav.Link href="">Bash</Nav.Link>
                   </Nav.Item>
                 </Nav>
               </Card.Header>
