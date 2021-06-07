@@ -7,7 +7,7 @@ function Skills() {
       <container id="skills">
         <Row style={{ paddingTop: "40px", paddingBottom: "20px" }}>
           <Col>
-            <h1 className="mt-2 text-center">My Skills</h1>
+            <h1 className="mt-2 text-center">My Experience</h1>
           </Col>
         </Row>
         <Row>
@@ -35,12 +35,6 @@ function Skills() {
                   </Nav.Item>
                   <Nav.Item>
                     <Nav.Link href="">VS Code</Nav.Link>
-                  </Nav.Item>
-                  <Nav.Item>
-                    <Nav.Link href="">Shell</Nav.Link>
-                  </Nav.Item>
-                  <Nav.Item>
-                    <Nav.Link href="">Bash</Nav.Link>
                   </Nav.Item>
                 </Nav>
               </Card.Header>
