@@ -1,27 +1,25 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
 import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
-import "./Components.css";
+import "./Components.scss";
 
 function Home() {
   return (
     <div class="container-fluid bg">
-      <Row class="d-flex-justify-contents-center align-items-center r-pic">
-        <Col className="col-pic" xs={12} md={7} lg={5} xxl={4}>
-          <div className="d-flex justify-content-center align-items-center container-img ">
-            <img
-              src="https://avatars0.githubusercontent.com/u/54314099?s=460&u=f36910cf0b5cfac4691d8cbf4111c7c5dc4cd15a&v=4"
-              alt="DP"
-              className="dp-img m-5 shadow-g"
-              sizes="sm"
-              id=""
-            />
-            <div className="img-text">
-              <p>(^ o ^)/" Hello Coders!</p>
-            </div>
-          </div>
+      {/*<Row class="d-flex-justify-contents-center align-items-center r-pic">
+        <Col className="col-pic" xs={12} md={7} lg={5} xxl={4}>*/}
+      <div className="container-img ">
+        <Col xl={3} lg={4} md={6} sm={8} xs={10}>
+          <img
+            src="https://avatars0.githubusercontent.com/u/54314099?s=460&u=f36910cf0b5cfac4691d8cbf4111c7c5dc4cd15a&v=4"
+            alt="DP"
+            className="dp-img"
+            id=""
+          />
+          <p className="dp-text">(^ o ^)/" Hello Coders!</p>
         </Col>
-      </Row>
+      </div>
+
       <Row>
         <Col
           d-flex-justify-content-center
@@ -43,19 +41,16 @@ function Home() {
           className="d-flex justify-content-center align-items-center"
           style={{ width: "100%", display: "flex" }}
         >
-          <h2 class="dropdown-header" id="name-display">
-            Amarjit Yanglem
-          </h2>
+          <h2 class="dropdown-header name-display">Amarjit Yanglem</h2>
 
           <h2
-            id="notation-name"
-            style={{ color: "red", fontSize: "2vw" }}
-            class=""
+            className="notation-name"
+            style={{ color: "red", fontSize: "3vw" }}
           >
             React Newbie
           </h2>
 
-          <div>
+          <div className="icons-link">
             <a
               className="m-2"
               href="https://www.instagram.com/aamjit_/"

@@ -7,7 +7,7 @@ function Projects() {
       <container id="projects">
         <Row style={{ paddingTop: "40px", paddingBottom: "20px" }}>
           <Col>
-            <h1 className="mt-2 text-center">My Projects</h1>
+            <h1 className="mt-2 text-center">My Works</h1>
           </Col>
         </Row>
         <Row>
@@ -16,7 +16,7 @@ function Projects() {
               <Carousel.Item>
                 <img
                   className="d-block w-100"
-                  src="https://flic.kr/p/2m33vay"
+                  src="https://github.com/Aamjit/Aamjit.profile/blob/master/src/components/files/Planet.jpg"
                   alt="First slide"
                 />
                 <Carousel.Caption>
@@ -29,7 +29,7 @@ function Projects() {
               <Carousel.Item>
                 <img
                   className="d-block w-100"
-                  src="holder.js/800x400?text=Second slide&bg=282c34"
+                  src="https://github.com/Aamjit/Aamjit.profile/blob/master/src/components/files/moonlight-01.jpg"
                   alt="Second slide"
                 />
 
@@ -49,10 +49,6 @@ function Projects() {
 
                 <Carousel.Caption>
                   <h3>Third slide label</h3>
-                  <p>
-                    Praesent commodo cursus magna, vel scelerisque nisl
-                    consectetur.
-                  </p>
                 </Carousel.Caption>
               </Carousel.Item>
             </Carousel>
