@@ -5,54 +5,34 @@ import {
   Nav,
   Form,
   FormControl,
-  Container,
   NavDropdown
 } from "react-bootstrap";
-import "./Components.scss";
-/*import DropdownItem from "react-bootstrap/esm/DropdownItem";
-import Dropdown from "react-bootstrap/esm/DropdownMenu"; */
 
 function Navigation() {
+  const handleSelect = (eventKey) => alert(`selected ${eventKey}`);
   return (
-    <Container fluid="xxl" class="nav-full">
-      <Navbar variant="dark" bg="dark" expand="lg">
-        <Navbar.Brand href="#home" id="nav-name">
-          <strong>A</strong>MARJIT <strong>Y</strong>ANGLEM
-        </Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="navbarScroll">
-          <Nav
-            className="mr-auto my-2 my-lg-0"
-            style={{ maxHeight: "200px" }}
-            navbarScroll
-          >
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#projects">My Works</Nav.Link>
-            <Nav.Link href="#skills">Skills</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
-            <NavDropdown title="More" id="navbarScrollingDropdown">
-              {/*<NavDropdown.Item href="#action3"></NavDropdown.Item>
-              <NavDropdown.Item href="#action4"></NavDropdown.Item>
-  <NavDropdown.Divider />*/}
-              <NavDropdown.Item href="#">
-                Searching for something?
-              </NavDropdown.Item>
-            </NavDropdown>
-          </Nav>
-          <Form className="d-flex">
-            <FormControl
-              type="search"
-              placeholder="Search"
-              className="mr-2 form-search"
-              aria-label="Search"
-            />
-            <Button variant="outline-success" className="search-btn">
-              <div class="search-text">Search</div>
-            </Button>
-          </Form>
-        </Navbar.Collapse>
+    <div>
+      <Navbar
+        bg="dark"
+        variant="dark"
+        className=""
+        fill=""
+        expand="lg"
+        sticky="top"
+      >
+        <Navbar.Brand href="#home">Portfolio created by React</Navbar.Brand>
+        <Nav className="mr-auto">
+          <Nav.Link href="#home">Home</Nav.Link>
+          <Nav.Link href="#features">Projects</Nav.Link>
+          <Nav.Link href="#pricing">Contact</Nav.Link>
+          <Nav.Link href="#pricing">Resume</Nav.Link>
+        </Nav>
+        <Form inline>
+          <FormControl type="text" placeholder="Search" className="mr-sm-2" />
+          <Button variant="outline-light">Search</Button>
+        </Form>
       </Navbar>
-    </Container>
+    </div>
   );
 }
 
