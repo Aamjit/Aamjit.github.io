@@ -3,7 +3,7 @@ import { Row, Col, Card, Nav } from "react-bootstrap";
 
 function Skills() {
   return (
-    <div>
+    <div id="skills">
       <container className="skills">
         <h1 className="mt-5 mb-4 text-center">My Experience</h1>
         <Row>

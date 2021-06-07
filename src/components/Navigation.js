@@ -14,8 +14,14 @@ import Dropdown from "react-bootstrap/esm/DropdownMenu"; */
 
 function Navigation() {
   return (
-    <Container fluid="xxl" class="nav-full">
-      <Navbar variant="dark" bg="dark" expand="lg">
+    <Container class="nav-full">
+      <Navbar
+        collapseOnSelect
+        sticky="top"
+        variant="dark"
+        bg="dark"
+        expand="xxl"
+      >
         <Navbar.Brand href="#home" id="nav-name">
           <strong>A</strong>MARJIT <strong>Y</strong>ANGLEM
         </Navbar.Brand>
@@ -40,7 +46,11 @@ function Navigation() {
             </NavDropdown>
           </Nav>
           <Form className="d-flex flex-row mr-2 form-search">
-            <FormControl type="search" placeholder="Search" size="sm" />
+            <FormControl
+              type="search"
+              placeholder="Search"
+              className="input-search"
+            />
             <Button variant="outline-success" className="search-btn">
               <div class="search-text">Search</div>
             </Button>

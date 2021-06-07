@@ -9,7 +9,7 @@ function Home() {
       {/*<Row class="d-flex-justify-contents-center align-items-center r-pic">
         <Col className="col-pic" xs={12} md={7} lg={5} xxl={4}>*/}
       <div className="container-img ">
-        <Col xl={3} lg={4} md={6} sm={8} xs={10}>
+        <div className="container-image-1">
           <img
             src="https://avatars0.githubusercontent.com/u/54314099?s=460&u=f36910cf0b5cfac4691d8cbf4111c7c5dc4cd15a&v=4"
             alt="DP"
@@ -17,7 +17,7 @@ function Home() {
             id=""
           />
           <p className="dp-text">(^ o ^)/" Hello Coders!</p>
-        </Col>
+        </div>
       </div>
 
       <Row>
