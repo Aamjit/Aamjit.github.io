@@ -1,0 +1,234 @@
+
+
+$mobile: 600px;
+$desktop: 1200px;
+$font-min: 20px;
+$font-max: 40px;
+$screen-diff: ($desktop / 1px - $mobile / 1px);
+$font-diff: ($font-max / 1px - $font-min / 1px);
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+
+html, body{
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+}
+
+.nav-full {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+}
+
+strong {
+  font-size: 130%;
+  color: #02890d;
+}
+
+#nav-name {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+  font-size: 3.5vw;
+  min-width: 3ch;
+  margin-left: 1.2em;
+  letter-spacing: 0.15em;
+  @media (max-width: 599px) {
+    font-size: $font-min;
+  }
+  @media (min-width: 600px) and (max-width: 1200px) {
+    font-size: calc(
+      #{$font-min} + (100vw - #{$mobile}) / #{$screen-diff} * #{$font-diff}
+    );
+  }
+  @media (min-width: 1201px) {
+    font-size: $font-max;
+  }
+}
+
+.form-search{
+  display: flex;
+  align-items: center;
+}
+
+.form-search .input-search{
+  margin: 0 20px;
+  height: 40px;
+  margin-left: 20px;
+  position: relative;
+  padding: 0 0 0 10px;
+}
+
+.search-btn{
+  background: none;
+  border: 2px solid #c74cfc;
+  color: #fcfcfc;
+  border-radius: 10px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  text-align: center;
+  margin: 10px 0 10px 0;
+  transition: all 0.5s ease 0s;
+  outline:none;
+}
+
+.search-text{
+  margin: 0 0 0 0;
+  text-decoration: none;
+}
+
+.search-btn:hover {
+  cursor: pointer;
+  background-color: #c74cfc;
+  color: #fcfcfc;
+  border: 2px solid #c74cfc;
+}
+
+.container-img{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;  
+}
+
+.container-img-1{
+  margin: 0 0 0 20px;
+  display: inline-block;
+  justify-content: center;
+}
+
+.dp-img {
+  opacity: 1;
+  position: relative;
+  margin: 40px 0 0 0;
+  width: 70vmin;
+  height: 70vmin;
+  transition: 0.5s ease;
+  border-radius: 50%;
+  background: #f2f2f2;
+  box-shadow: 0px 30px 50px 10px rgba(0, 0, 0, 0.6);
+}
+
+.dp-text {
+  position: relative;
+  transition: 0.5s ease;
+  opacity: 0;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border-radius: 6px;
+  transform: translate(0 , -50%);
+  -ms-transform: translate(0 , -50%);
+  text-align: center;
+  background-color: #04aa6d;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 0 2em 0 2em;
+}
+
+.dp-img:hover {
+  cursor: pointer;
+  opacity: 0.4;
+  transform: scale(1.08);
+  z-index: -1;
+  .dp-text{
+    cursor: pointer;
+    opacity: 1;
+  }
+}
+
+.container-img:hover .dp-text{
+  cursor: pointer;
+  opacity: .7;
+}
+
+.wrapper {
+  /*This part is important for centering*/
+  width: 100%;
+  margin: 30px 0 0 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.typing-text {
+  width: 100%;
+  margin: 10px 0 0 0;
+  animation: typing 4s 2s infinite alternate steps(40),
+    blink 0.3s step-start infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2.8vw;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 69%;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+    
+  }
+}
+
+.name-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.name-display {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 6vw;
+  color: #02890d;
+  font-weight: bold;
+}
+
+.notation-name{
+  margin: 0 0 0 0;
+}
+.icons-link{
+  margin: 0 0 0 0;
+}
+
+.projects-items{
+  width: 100%;
+}
+
+.skills .skills-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.form-contact {
+  border: none;
+  margin: 0 3rem 0 1rem;
+}
+
+.foot-main {
+  margin: 30px 0 1em 0;
+}
+
+.image-slides{
+  width: 100%;
+  margin: 0 0 0 0;
+}
+
+.image-slides .img-1,.img-2 {
+  max-width: 100%; 
+}

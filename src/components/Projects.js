@@ -1,42 +1,56 @@
 import React from "react";
-import { Row, Col, Nav, Card, Button } from "react-bootstrap";
+import { Row, Col, Carousel } from "react-bootstrap";
+import "./Components.scss";
 
 function Projects() {
   return (
-    <div>
+    <div id="projects" className="projects-items">
       <container id="projects">
-        <Row style={{ paddingTop: "40px", paddingBottom: "20px" }}>
-          <Col>
-            <h1 className="mt-2 text-center">My Projects</h1>
-          </Col>
-        </Row>
+        <h1 className="mt-5 mb-3 text-center">My Works</h1>
         <Row>
-          <Col>
-            <Card>
-              <Card.Header>
-                <Nav variant="pills" defaultActiveKey="#first">
-                  <Nav.Item>
-                    <Nav.Link href="https://github.com/Aamjit/Aamjit.github.io/blob/master/src/components/files/Mini_Project_Report.pdf">
-                      Online Shopping
-                    </Nav.Link>
-                  </Nav.Item>
-                  <Nav.Item>
-                    <Nav.Link href="">NFC in toll</Nav.Link>
-                  </Nav.Item>
-                  <Nav.Item>
-                    <Nav.Link href=""></Nav.Link>
-                  </Nav.Item>
-                </Nav>
-              </Card.Header>
-              <Card.Body>
-                <Card.Title>
-                  Some of the Projects i worked on are listed above as links.
-                  {"\n"} Please refer them as you wish.
-                </Card.Title>
-                <Card.Text></Card.Text>
-                <Button variant="primary">Go somewhere</Button>
-              </Card.Body>
-            </Card>
+          <Col className="image-slides">
+            <Carousel fade>
+              <Carousel.Item>
+                <a href="https://i.ibb.co/ZKdbfnD/moonlight-01.jpg">
+                  <img
+                    src="https://i.ibb.co/ZKdbfnD/moonlight-01.jpg"
+                    alt="moonlight-01"
+                    border="0"
+                    className="d-block w-100 img-1"
+                  />
+                  <Carousel.Caption>
+                    <h3>Two birds in a full moon night</h3>
+                    <p>
+                      This is an illustration of tree and birds silhoutte
+                      created using Adobe Illustrator.
+                    </p>
+                  </Carousel.Caption>
+                </a>
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block w-100 img-2"
+                  src="https://i.ibb.co/ncjYkrh/Planet.jpg"
+                  alt=""
+                />
+
+                <Carousel.Caption>
+                  <h3>Planet made of glass</h3>
+                  <p>Illustration of a planet which is made up of glass.</p>
+                </Carousel.Caption>
+              </Carousel.Item>
+              {/*<Carousel.Item>
+                <img
+                  className="d-block w-100"
+                  src="holder.js/800x400?text=Third slide&bg=20232a"
+                  alt="Third slide"
+                />
+
+                <Carousel.Caption>
+                  <h3>Third slide label</h3>
+                </Carousel.Caption>
+              </Carousel.Item>*/}
+            </Carousel>
           </Col>
         </Row>
       </container>
