@@ -9,7 +9,7 @@ function Home() {
       {/*<Row class="d-flex-justify-contents-center align-items-center r-pic">
         <Col className="col-pic" xs={12} md={7} lg={5} xxl={4}>*/}
       <div className="container-img ">
-        <div className="container-image-1">
+        
           <img
             src="https://avatars0.githubusercontent.com/u/54314099?s=460&u=f36910cf0b5cfac4691d8cbf4111c7c5dc4cd15a&v=4"
             alt="DP"
@@ -17,7 +17,7 @@ function Home() {
             id=""
           />
           <p className="dp-text">(^ o ^)/" Hello Coders!</p>
-        </div>
+
       </div>
 
       <Row>
@@ -37,9 +37,9 @@ function Home() {
         </Col>
       </Row>
       <div className="name-container">
-        <h2 class="dropdown-header name-display">Amarjit Yanglem</h2>
+        <h2 class="name-display">Amarjit Yanglem</h2>
 
-        <h2 className="notation-name" style={{ color: "red", fontSize: "3vw" }}>
+        <h2 className="notation-name" >
           React Newbie
         </h2>
 
@@ -49,17 +49,17 @@ function Home() {
             href="https://www.instagram.com/aamjit_/"
             rel="noreffer"
           >
-            <FaInstagram color="#" fontSize="5.3vw" />
+            <FaInstagram className="icons-item"/>
           </a>
           <a className="m-2" href="https://github.com/Aamjit" rel="noreffer">
-            <FaGithub color="#" fontSize="5.3vw" />
+            <FaGithub className="icons-item"/>
           </a>
           <a
             className="m-2"
             href="https://www.linkedin.com/in/amarjit-yanglem-739538191/"
             rel="noreffer"
           >
-            <FaLinkedin color="#" fontSize="5.3vw" />
+            <FaLinkedin className="icons-item"/>
           </a>
         </div>
       </div>
