@@ -1,10 +1,7 @@
 import React from "react";
 import {
-  Button,
   Navbar,
   Nav,
-  Form,
-  FormControl,
   Container,
   NavDropdown
 } from "react-bootstrap";
@@ -17,10 +14,9 @@ function Navigation() {
     <Container class="nav-full">
       <Navbar
         collapseOnSelect
-        sticky="top"
         variant="dark"
         bg="dark"
-        expand="xxl"
+        expand="lg"
       >
         <Navbar.Brand href="#home" id="nav-name">
           <strong>A</strong>MARJIT <strong>Y</strong>ANGLEM
@@ -45,7 +41,7 @@ function Navigation() {
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
-          <Form className="d-flex flex-row mr-2 form-search">
+          {/* <Form className="d-flex flex-row mr-2 form-search">
             <FormControl
               type="search"
               placeholder="Search"
@@ -54,7 +50,7 @@ function Navigation() {
             <Button variant="outline-success" className="search-btn">
               <div class="search-text">Search</div>
             </Button>
-          </Form>
+          </Form> */}
         </Navbar.Collapse>
       </Navbar>
     </Container>
