@@ -1,6 +1,6 @@
 @viewport {
   width: devide-width;
-  zoom: 1;
+  zoom: 0;
 }
 
 .App {
@@ -55,11 +55,12 @@
 
 .main-app {
   /* background: #a5c9c8; */
-  background: url("https://i.ibb.co/YDSQmfZ/fabian-albert-uw-L-Jv-Iht-LM-unsplash.jpg") no-repeat;
+  background: url("https://i.ibb.co/vsWqpLY/fabian-albert-uw-L-Jv-Iht-LM-unsplash.jpg")
+    no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-blend-mode: screen;
-  width: 100vw;
+  width: 100%;
   margin: 0 0 0 0;
 }

@@ -1,47 +1,45 @@
 import React from "react";
-import {
-  Navbar,
-  Nav,
-  Container,
-  NavDropdown
-} from "react-bootstrap";
+import { Navbar, Nav } from "react-bootstrap";
 import "./Components.scss";
 /*import DropdownItem from "react-bootstrap/esm/DropdownItem";
 import Dropdown from "react-bootstrap/esm/DropdownMenu"; */
 
 function Navigation() {
   return (
-    <Container class="nav-full">
-      <Navbar
-        collapseOnSelect
-        variant="dark"
-        bg="dark"
-        expand="lg"
-      >
-        <Navbar.Brand href="#home" id="nav-name">
-          <strong>A</strong>MARJIT <strong>Y</strong>ANGLEM
-        </Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="navbarScroll">
-          <Nav
-            className="mr-auto my-2 my-lg-0"
-            style={{ maxHeight: "200px" }}
-            navbarScroll
-          >
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#projects">My Works</Nav.Link>
-            <Nav.Link href="#skills">Skills</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
-            <NavDropdown title="More" id="navbarScrollingDropdown">
-              {/*<NavDropdown.Item href="#action3"></NavDropdown.Item>
+    // <Container class="nav-full">
+    <Navbar collapseOnSelect variant="dark" bg="dark" expand="md" width-100>
+      <Navbar.Brand href="#home" id="nav-name">
+        <strong>A</strong>MARJIT <strong>Y</strong>ANGLEM
+      </Navbar.Brand>
+      <Navbar.Toggle aria-controls="navbarScroll" className="menu-toggle" />
+      <Navbar.Collapse id="navbarScroll">
+        <Nav
+          className="mr-auto my-2 my-lg"
+          style={{ maxHeight: "200px" }}
+          navbarScroll
+        >
+          <Nav.Link href="#home" className="menu-list">
+            Home
+          </Nav.Link>
+          <Nav.Link href="#projects" className="menu-list">
+            My Works
+          </Nav.Link>
+          <Nav.Link href="#skills" className="menu-list">
+            Skills
+          </Nav.Link>
+          <Nav.Link href="#contact" className="menu-list">
+            Contact
+          </Nav.Link>
+          {/* <NavDropdown title="More" id="navbarScrollingDropdown" className="menu-list">
+            {/*<NavDropdown.Item href="#action3"></NavDropdown.Item>
               <NavDropdown.Item href="#action4"></NavDropdown.Item>
-  <NavDropdown.Divider />*/}
-              <NavDropdown.Item href="#">
-                Searching for something?
-              </NavDropdown.Item>
-            </NavDropdown>
-          </Nav>
-          {/* <Form className="d-flex flex-row mr-2 form-search">
+  <NavDropdown.Divider />
+            <NavDropdown.Item href="#" className="menu-list">
+              Searching for something?
+            </NavDropdown.Item>
+          </NavDropdown> */}
+        </Nav>
+        {/* <Form className="d-flex flex-row mr-2 form-search">
             <FormControl
               type="search"
               placeholder="Search"
@@ -51,9 +49,9 @@ function Navigation() {
               <div class="search-text">Search</div>
             </Button>
           </Form> */}
-        </Navbar.Collapse>
-      </Navbar>
-    </Container>
+      </Navbar.Collapse>
+    </Navbar>
+    // </Container>
   );
 }
 
