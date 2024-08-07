@@ -81,12 +81,6 @@ pygmentsStyle = "monokai"
     url = "https://github.com/Aamjit"
     weight = 5
 
-  [[menu.main]]
-    identifier = "buymeacoffee"
-    pre = "<span data-feather='coffee'></span>"
-    url = "https://www.buymeacoffee.com/avijitgupta"
-    weight = 6
-
 
 [markup]
   [markup.tableOfContents]
