@@ -17,7 +17,7 @@ pygmentsStyle = "monokai"
   avatarSize = "size-m"
   AvatarAltText = "avatar"
   ShowBackToTopButton = true # true or false for "back to top" button on posts
-  # showPostsOnHomePage = "popular"
+  showPostsOnHomePage = "popular"
 
   customHeadHTML = """
     <!-- KaTeX -->
