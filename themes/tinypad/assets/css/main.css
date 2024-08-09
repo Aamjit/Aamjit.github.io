@@ -174,12 +174,13 @@ img {
 .header-nav .nav-links {
   float: right;
   line-height: 50px;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 .nav-links .nav-link {
-  display: inline-block;
   padding: 0 2px;
+  max-width: 100;
+  float: inline-start;
 }
 
 .nav-links .nav-link a {
@@ -188,13 +189,6 @@ img {
 }
 
 .nav-link a svg {
-  height: 20px;
-  margin: -3px auto;
-  stroke-width: 2;
-  width: 20px;
-}
-
-.nav-item a svg {
   height: 20px;
   margin: -3px auto;
   stroke-width: 2;
