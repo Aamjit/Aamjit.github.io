@@ -1,6 +1,6 @@
 baseURL = "https://aamjit.github.io/"
 title = "Amarjit Yanglem"
-theme = "gokarna"
+theme = "tinypad"
 languageCode = "en"
 defaultContentLanguage = "en"
 enableEmoji = true

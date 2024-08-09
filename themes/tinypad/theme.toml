@@ -1,0 +1,23 @@
+name = 'tinypad'
+license = 'MIT'
+licenselink = 'https://github.com/owner/repo/LICENSE'
+description = 'Tinypad is an minimalist theme with a focus on robustness and simplicity'
+
+# The home page of the theme, where the source can be found
+homepage = 'https://github.com/Aamjit/Aamjit.github.io'
+
+# If you have a running demo of the theme
+demosite = 'https://aamjit.github.io/'
+
+# Taxonomy terms
+tags = ["blog", "minimal", "responsive", "personal", "portfolio"]
+features = ["Blog", "Responsive", "Minimal", "Clean", "Simple", "SEO", "Bootstrap", "Fast"]
+
+# If the theme has multiple authors
+
+
+# If the theme has a single author
+[author]
+  name = 'Amarjit Yanglem'
+  homepage = 'https://aamjit.github.io/'
+
