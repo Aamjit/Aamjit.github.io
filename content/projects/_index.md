@@ -1,0 +1,10 @@
+---
+title: "Projects"
+type: page
+---
+
+### Hello some of the projects I've worked on are
+
+1. [Dropify | File Sharing Web App](/projects/dropify_file_sharing_app/)
+
+    ![Dropify](/images/projects/dropify_file_sharing_app.png)

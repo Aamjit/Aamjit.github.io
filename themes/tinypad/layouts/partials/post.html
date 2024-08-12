@@ -1,5 +1,6 @@
 <div class="post container">
     <div class="post-header-section">
+
         <h1>{{ .Title }}</h1>
         <small role="doc-subtitle">{{ .Description }}</small>
         <p class="post-date">{{ dateFormat (or .Site.Params.dateFormat "January 2, 2006") .Date}}
@@ -11,6 +12,10 @@
             <li class="post-tag"><a href="{{ " tags/" | absLangURL }}{{ . | urlize }}">{{ . }}</a></li>
             {{ end }}
         </ul>
+
+        {{ if .Params.image }}
+        <img class="post-list-image" src="{{ .Params.image }}" alt="{{ .Title }}" />
+        {{end}}
     </div>
 
     <div class="post-content">

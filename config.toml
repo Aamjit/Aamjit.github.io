@@ -77,6 +77,12 @@ pygmentsStyle = "monokai"
     weight = 4
 
   [[menu.main]]
+    name = "Resume"
+    pre = "<span data-feather='book'></span>"
+    url = "/resume/"
+    weight = 4
+
+  [[menu.main]]
     name = "Tags"
     pre = "<span data-feather='tag'></span>"
     url = "/tags/"
@@ -85,7 +91,7 @@ pygmentsStyle = "monokai"
   [[menu.main]]
     identifier = "github"
     pre = "<span data-feather='github'></span>"
-    url = "https://github.com/Aamjit"
+    url = "https://github.com/Aamjit/Aamjit.github.io"
     weight = 6
 
 
