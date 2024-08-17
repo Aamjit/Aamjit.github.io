@@ -1,7 +1,8 @@
----
-title: "Projects"
-type: page
----
++++
+title = "Projects"
+type = 'page'
+draft = 'false'
++++
 
 ### Hello some of the projects I've worked on are
 

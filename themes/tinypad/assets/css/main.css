@@ -183,19 +183,22 @@ img {
 }
 
 .nav-links .nav-link {
+  display: inline-flex;
   padding: 0 2px;
   max-width: 100;
-  float: inline-start;
+  padding: 0 6px;
 }
 
+
 .nav-links .nav-link a {
-  display: block;
-  padding: 0 6px;
+  display: inline-flex;
+  gap: 6px;
+  align-items: center;
+  justify-content: center;
 }
 
 .nav-link a svg {
   height: 20px;
-  margin: -3px auto;
   stroke-width: 2;
   width: 20px;
 }
@@ -250,6 +253,12 @@ a:hover .feather-sun {
   text-align: center;
   width: 100%;
   z-index: 5;
+
+  .nav-item a {
+    display: inline-flex;
+    gap: 6px;
+    align-items: center;
+  }
 }
 
 .nav-hamburger-list a:hover {
@@ -558,7 +567,7 @@ table td {
 
   .post-date {
     color: lightskyblue;
-    font-style: italic;
+    font-style: normal;
     font-size: 12px;
   }
 }

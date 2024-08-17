@@ -1,7 +1,7 @@
 +++
 title = 'Resume'
 type = 'page'
-draft = 'true'
+draft = 'false'
 +++
 
-# Coming soon...
+### Coming soon...

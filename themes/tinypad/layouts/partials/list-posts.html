@@ -10,5 +10,12 @@
     <span class="post-list-desc">{{ .Description }}</span>
     {{end}}
     <div class="flex-break"></div>
+
+    <ul class="post-tags">
+        {{ range .Params.tags }}
+        <li class="post-tag"><a href='{{ "tags/" | absLangURL }}{{ . | urlize }}'>{{ . }}</a></li>
+        {{ end }}
+    </ul>
+
     <span class="post-date">{{ dateFormat (or .Site.Params.dateFormat "January 2, 2006") .Date}}</span>
 </div>
