@@ -5,7 +5,7 @@ image = "/images/posts/deploy-your-sap-cap-application-to-any-hosting-site.png"
 date = 2024-08-01T14:39:44+05:30
 draft = false
 type = "post"
-tags = ["sap", "cap", "nodeJs", "cds"]
+tags = ["sap", "cap", "nodejs", "cds"]
 +++
 
 Greetings Readers,

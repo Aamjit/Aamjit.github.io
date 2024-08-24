@@ -1,11 +1,11 @@
 +++
-title = 'Dropify | Your next File Sharing App'
-description = "Dummy"
+title = 'Dropify | File Sharing Web App'
+description = '''A NextJS application built to help share files across the web, built in with a hassle free authentication process, and automated alert mailing functionality, user friendly UIs, password enabled files, easy tracking of uploaded and shared files.'''
 date = 2024-08-07T15:35:50+05:30
 draft = false
 type = "page"
-tags = ["NextJs", "ReactJs", "NodeJs"]
 link = "https://dropify-by-amarjit.vercel.app/"
+tags = ["nextjs", "reactjs", "nodejs"]
 +++
 
 ### Overview
@@ -63,3 +63,5 @@ This project is a great example of how to build a full-stack application with Ne
 -   The Firebase integration for cloud storageb is also a great feature that allows for easy file management and scalability.
 
 Overall, this project is a great example of how to build a robust and scalable application with NextJS and other technologies.
+
+**Tech Stack**: ReactJs, NextJs, Tailwind, Clerk(authentication), Resend(mail services), HyperUI(UI Library).
