@@ -1,11 +1,11 @@
 +++
 title = 'Dropify | File Sharing Web App'
 description = '''A NextJS application built to help share files across the web, built in with a hassle free authentication process, and automated alert mailing functionality, user friendly UIs, password enabled files, easy tracking of uploaded and shared files.'''
-date = 2024-08-07T15:35:50+05:30
+date = 2024-05-07T15:35:50+05:30
 draft = false
-type = "page"
+type = "project"
 link = "https://dropify-by-amarjit.vercel.app/"
-tags = ["nextjs", "reactjs", "nodejs"]
+tags = ["javascript", "next.js", "react.js", "node.js"]
 +++
 
 ### Overview

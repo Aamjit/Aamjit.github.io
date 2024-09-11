@@ -1,11 +1,11 @@
 +++
 title = 'Gochat: Building a Real-Time Chat App with Go and React'
 description = 'A miniature version of a chat app, demonstrating web socket connections between frontend and backend, handle multiple clients connections, read a socket message and send out incoming messages to all clients.'
-date = 2024-08-24T11:47:59+05:30
-type = "page"
+date = 2024-07-24T11:47:59+05:30
+type = "project"
 draft = false
 link = "https://gochat-go.onrender.com/"
-tags = ['reactjs', 'go', 'websocket']
+tags = ['javascript', 'react.js', 'go', 'websocket']
 +++
 
 In this blog post, we’ll explore how to build a real-time chat application using Go and React. Our app, Gochat, leverages WebSockets to enable instant messaging between users. You can check out the live demo here.

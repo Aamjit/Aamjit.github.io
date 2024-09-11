@@ -38,6 +38,7 @@ growth and innovation.
 
     -   Successfully delivered multiple SAP implementation, enhancements and support projects, ensuring high client satisfaction.
     -   Specialized in building custom ABAP solutions tailored to meet specific client requirements.
+    -   Mentoring new developers and guiding through different scenarios and aspects of development.
     -   Played a pivotal role in the development of mFleet, an internal project, with a significant focus on frontend development.
 
 -   #### SAP Developer
@@ -66,17 +67,18 @@ growth and innovation.
 
 ## Core Skills
 
-```
-Go (Programming Language), Object Oriented ABAP (OOABAP), RICEFW, SAP S/4HANA, SQL, JavaScript, NodeJs, SAPUI5, ReactJs, NextJs, Back-End Web Development, Remote Function Call (RFC), OData, REST APIs, C (Programming Language)
-```
+-   **Languages**: `JavaScript, Go, OOABAP(Object Oriented ABAP), C`
+-   **Industrials**: `RICEFW(Reports Interfaces Conversions Enhancements Forms Workflow), SAP S/4HANA, RFC(Remote Function Call), OData, CDS(Core Data Services)`
+-   **Technologies**: `CAPM(Cloud Application Programming Model), REST APIs, Node.js, React.js, Next.js, Docker, Git`
+-   **Others**: `SQL, SAP UI5`
 
 ## Education
 
--   **Alva's Institute of Engineering and Technology | VTU**
+-   **Bachelor of Engineering | Information Science and Engineering**
 
     > _Aug 2018 - Jul 2022_
     >
-    > Bachelor of Engineering | Information Science and Engineering
+    > Alva's Institute of Engineering and Technology | VTU
     >
     > `CGPA 6.89`
 
@@ -117,3 +119,5 @@ Go (Programming Language), Object Oriented ABAP (OOABAP), RICEFW, SAP S/4HANA, S
     > **SAP**
     >
     > _Aug 2024_
+
+[Download PDF](/documents/amarjit-yanglem-main1.pdf)

@@ -57,7 +57,6 @@ pygmentsStyle = "monokai"
 
 [menu]
 
-
   [[menu.main]]
     name = "Home"
     pre = "<span data-feather='home'></span>"
@@ -93,7 +92,6 @@ pygmentsStyle = "monokai"
     pre = "<span data-feather='github'></span>"
     url = "https://github.com/Aamjit/Aamjit.github.io"
     weight = 6
-
 
 [markup]
   [markup.tableOfContents]

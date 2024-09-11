@@ -10,7 +10,7 @@ homepage = 'https://github.com/Aamjit/Aamjit.github.io'
 demosite = 'https://aamjit.github.io/'
 
 # Taxonomy terms
-tags = ["blog", "minimal", "responsive", "personal", "portfolio"]
+tags = ["blog", "minimal", "resume", "responsive", "personal", "portfolio"]
 features = ["Blog", "Responsive", "Minimal", "Clean", "Simple", "SEO", "Bootstrap", "Fast"]
 
 # If the theme has multiple authors

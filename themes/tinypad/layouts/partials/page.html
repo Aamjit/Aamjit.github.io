@@ -5,7 +5,7 @@
         <small role="doc-subtitle">{{ .Description }}</small>
 
         {{ if .Params.date }}
-        <p class="post-date">{{ dateFormat (or .Site.Params.dateFormat "January 2, 2006") .Date}}
+        <p class="post-date">{{ dateFormat (or .Site.Params.dateFormat "January, 2006") .Date}}
             {{ if lt .Date .Lastmod }} | Updated {{ dateFormat .Site.Params.dateFormat .Lastmod }}{{ end }}
         </p>
         {{end}}

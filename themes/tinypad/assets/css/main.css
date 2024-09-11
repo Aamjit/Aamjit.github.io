@@ -546,21 +546,31 @@ table td {
   margin-top: 70px;
 }
 
-.list-posts .post-title {
+.post-title,
+.project-title {
   margin: 18px 0 0 15px;
   padding: 18px 15px 15px 15px;
-  background-color: hsla(224, 57%, 33%, 0.5);
   border-radius: 12px;
   display: flex;
   flex-direction: column;
-  gap: .5rem;
+  gap: .5rem
+}
 
+.post-title {
+  background-color: hsla(224, 57%, 33%, 0.5);
+}
+
+.project-title {
+  background-color: hsla(172, 57%, 33%, 0.5);
+}
+
+.list-posts {
   .post-link {
     font-size: 1.5rem;
   }
 
   .post-list-desc {
-    color: lightslategrey;
+    color: dodgerblue;
     font-size: .8rem;
     font-family: monospace;
   }
