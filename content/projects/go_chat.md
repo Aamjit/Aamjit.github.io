@@ -6,6 +6,7 @@ type = "project"
 draft = false
 link = "https://gochat-go.onrender.com/"
 tags = ['javascript', 'react.js', 'go', 'websocket']
+showTableOfContents = true
 +++
 
 In this blog post, we’ll explore how to build a real-time chat application using Go and React. Our app, Gochat, leverages WebSockets to enable instant messaging between users. You can check out the live demo here.

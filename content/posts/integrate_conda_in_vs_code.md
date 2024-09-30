@@ -6,6 +6,7 @@ date = 2021-11-23T20:08:10+05:30
 draft = false
 type = "post"
 tags = ["python", "vscode", "anaconda"]
+showTableOfContents = true
 +++
 
 First thing is first, make sure you have Python, VS code, Anaconda installed in you system.

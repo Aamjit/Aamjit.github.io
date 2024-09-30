@@ -6,6 +6,7 @@ draft = false
 type = "project"
 link = "https://dropify-by-amarjit.vercel.app/"
 tags = ["javascript", "next.js", "react.js", "node.js"]
+showTableOfContents = true
 +++
 
 ### Overview

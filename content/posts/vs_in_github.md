@@ -6,6 +6,7 @@ date = 2021-08-15T20:08:10+05:30
 draft = false
 type = "post"
 tags = ["github", "vscode"]
+showTableOfContents = true
 +++
 
 ## Has everyone been aware of the feature, that GitHub provides developers, where they can open VS Code in GitHub?
