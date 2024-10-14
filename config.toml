@@ -12,7 +12,7 @@ pygmentsStyle = "monokai"
 [params]
 
   description = "Does a market decide what you are worth or do you?"
-  ctaButton = """<a href="https://www.buymeacoffee.com/amarjit.yanglem"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a beer&emoji=🍺&slug=amarjit.yanglem&button_colour=5F7FFF&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" /></a>"""
+  ctaButton = """<a href="https://www.buymeacoffee.com/amarjit.yanglem"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a beer&emoji=🍺&slug=amarjit.yanglem&button_colour=5F7FFF&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" alt="buy me a coffee" /></a>"""
   accentColor = "#08F"
   avatarURL = "/images/avatar.webp"
   avatarSize = "size-m"

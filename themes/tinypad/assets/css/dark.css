@@ -1,7 +1,7 @@
 :root {
   --dark-primary-color: 34, 39, 46;
   --dark-secondary-color: #2d333b;
-  --dark-tertiary-color: #646464;
+  --dark-tertiary-color: #b1b1b1;
   --dark-text-color: white;
 }
 
@@ -29,7 +29,7 @@ a:hover .feather-moon {
 }
 
 .social-icons-list .social-icon,
-.social-icons-list .social-icon a:visited  {
+.social-icons-list .social-icon a:visited {
   fill: var(--dark-text-color);
 }
 
@@ -49,6 +49,14 @@ a:hover .feather-moon {
 .tags-list .post-tags .post-tag:hover a .tag-posts-count {
   background-color: var(--dark-text-color);
   color: rgb(var(--dark-primary-color));
+}
+
+.post-title {
+  background-color: hsla(224, 58%, 40%, 0.8);
+}
+
+.project-title {
+  background-color: hsla(139, 59%, 32%, 0.8);
 }
 
 .footer {
@@ -78,7 +86,7 @@ pre {
   background-color: var(--dark-secondary-color) !important;
 }
 
-:not(pre) > code {
+:not(pre)>code {
   background-color: var(--dark-tertiary-color) !important;
   color: var(--dark-text-color);
 }
@@ -87,7 +95,7 @@ pre {
   box-shadow: rgb(33, 38, 45) 0px -1px 0px 0px inset;
 }
 
-.arrow-logo { 
+.arrow-logo {
   background-color: var(--dark-secondary-color);
 }
 

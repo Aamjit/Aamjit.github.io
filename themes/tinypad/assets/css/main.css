@@ -3,7 +3,7 @@
   --container-width: 810px;
 
   --light-primary-color: 255, 255, 255;
-  --light-secondary-color: #dddddd;
+  --light-secondary-color: #d9ffd6;
   --light-tertiary-color: #272822;
   --light-text-color: black;
 }
@@ -310,7 +310,7 @@ a:hover .feather-sun {
   border: 1.5px solid;
   border-radius: 4px;
   box-sizing: border-box;
-  color: inherit;
+  color: var(--light-primary-color);
   display: inline-block;
   font-size: 14px;
   margin-right: .25rem;
@@ -408,11 +408,20 @@ table td {
   text-align: center;
 }
 
-.home-about .avatar img {
-  border-radius: 50%;
-  height: auto;
-  object-fit: cover;
+.home-about .avatar {
+  margin: auto;
+  border: 2px solid var(--light-tertiary-color);
+  width: fit-content;
+  border-radius: 100%;
+  display: inline-flex;
+
+  .img {
+    border-radius: 50%;
+    /* height: auto; */
+    object-fit: cover;
+  }
 }
+
 
 /* Avatar sizes (default is M) - XS, S, M, L, XL */
 .home-about .avatar img.size-xs {
@@ -484,7 +493,7 @@ table td {
 .post [role="doc-subtitle"] {
   font-size: 1rem;
   /* font-style: italic; */
-  color: lightblue;
+  color: cadetblue;
   font-family: monospace;
 }
 
@@ -558,26 +567,27 @@ table td {
 }
 
 .post-title {
-  background-color: hsla(224, 57%, 33%, 0.5);
+  background-color: hsla(224, 58%, 26%, 0.8);
 }
 
 .project-title {
-  background-color: hsla(172, 57%, 33%, 0.5);
+  background-color: hsla(172, 56%, 19%, 0.8);
 }
 
 .list-posts {
   .post-link {
     font-size: 1.5rem;
+    color: var(--light-secondary-color);
   }
 
   .post-list-desc {
-    color: dodgerblue;
+    color: lightgray;
     font-size: .8rem;
     font-family: monospace;
   }
 
   .post-date {
-    color: lightskyblue;
+    color: antiquewhite;
     font-style: normal;
     font-size: 12px;
   }
