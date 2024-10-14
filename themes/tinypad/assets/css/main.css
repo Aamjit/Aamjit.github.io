@@ -313,6 +313,7 @@ a:hover .feather-sun {
   color: inherit;
   display: inline-block;
   font-size: 14px;
+  margin-right: .25rem;
 }
 
 .post-tags .post-tag:hover {
